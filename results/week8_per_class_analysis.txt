@@ -1,0 +1,26 @@
+WEEK 8 — PER-CLASS VALIDATION ANALYSIS
+Scene: 000048
+
+
+Logistic Regression
+Accuracy: 54.67%
+                 precision    recall  f1-score   support
+
+Master Chef Can       0.75      0.16      0.26        75
+  Tuna Fish Can       0.80      0.93      0.86        75
+
+      micro avg       0.80      0.55      0.65       150
+      macro avg       0.78      0.55      0.56       150
+   weighted avg       0.78      0.55      0.56       150
+
+
+Neural Network
+Accuracy: 50.00%
+                 precision    recall  f1-score   support
+
+Master Chef Can       0.53      1.00      0.69        75
+  Tuna Fish Can       0.00      0.00      0.00        75
+
+      micro avg       0.53      0.50      0.52       150
+      macro avg       0.27      0.50      0.35       150
+   weighted avg       0.27      0.50      0.35       150

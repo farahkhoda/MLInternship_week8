@@ -1,0 +1,69 @@
+WEEK 8 — FULL 9-CLASS VALIDATION ANALYSIS
+Validation scene: 000048
+Note: this scene contains only Master Chef Can and Tuna Fish Can.
+
+=======================================================
+Logistic Regression
+Accuracy: 54.67%
+Predicted class counts: {1: 16, 6: 87, 15: 47}
+
+Full 9-class classification report:
+                 precision    recall  f1-score   support
+
+Master Chef Can       0.75      0.16      0.26        75
+    Cracker Box       0.00      0.00      0.00         0
+      Sugar Box       0.00      0.00      0.00         0
+Tomato Soup Can       0.00      0.00      0.00         0
+  Tuna Fish Can       0.80      0.93      0.86        75
+Potted Meat Can       0.00      0.00      0.00         0
+   Pitcher Base       0.00      0.00      0.00         0
+Bleach Cleanser       0.00      0.00      0.00         0
+    Power Drill       0.00      0.00      0.00         0
+
+       accuracy                           0.55       150
+      macro avg       0.17      0.12      0.13       150
+   weighted avg       0.78      0.55      0.56       150
+
+Full confusion matrix (rows=true, columns=predicted):
+[[12  0  0  0 17  0  0  0 46]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 4  0  0  0 70  0  0  0  1]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]]
+
+=======================================================
+Neural Network
+Accuracy: 50.00%
+Predicted class counts: {1: 141, 4: 9}
+
+Full 9-class classification report:
+                 precision    recall  f1-score   support
+
+Master Chef Can       0.53      1.00      0.69        75
+    Cracker Box       0.00      0.00      0.00         0
+      Sugar Box       0.00      0.00      0.00         0
+Tomato Soup Can       0.00      0.00      0.00         0
+  Tuna Fish Can       0.00      0.00      0.00        75
+Potted Meat Can       0.00      0.00      0.00         0
+   Pitcher Base       0.00      0.00      0.00         0
+Bleach Cleanser       0.00      0.00      0.00         0
+    Power Drill       0.00      0.00      0.00         0
+
+       accuracy                           0.50       150
+      macro avg       0.06      0.11      0.08       150
+   weighted avg       0.27      0.50      0.35       150
+
+Full confusion matrix (rows=true, columns=predicted):
+[[75  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [66  0  0  9  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0]]

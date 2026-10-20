@@ -1,0 +1,61 @@
+WEEK 8 — CLASS CONFUSION INVESTIGATION
+
+=======================================================
+Logistic Regression
+
+Master Chef Can (ID 1): 200/300 correct (66.7% recall)
+  Most common errors: Power Drill: 46, Potted Meat Can: 37, Tuna Fish Can: 17
+
+Cracker Box (ID 2): 0/150 correct (0.0% recall)
+  Most common errors: Tomato Soup Can: 150
+
+Sugar Box (ID 3): 310/375 correct (82.7% recall)
+  Most common errors: Bleach Cleanser: 47, Potted Meat Can: 18
+
+Tomato Soup Can (ID 4): 271/375 correct (72.3% recall)
+  Most common errors: Bleach Cleanser: 77, Cracker Box: 23, Tuna Fish Can: 4
+
+Tuna Fish Can (ID 6): 179/225 correct (79.6% recall)
+  Most common errors: Master Chef Can: 45, Power Drill: 1
+
+Potted Meat Can (ID 9): 0/150 correct (0.0% recall)
+  Most common errors: Bleach Cleanser: 112, Sugar Box: 12, Tuna Fish Can: 11
+
+Pitcher Base (ID 11): 225/225 correct (100.0% recall)
+  No misclassifications in these predictions.
+
+Bleach Cleanser (ID 12): 279/300 correct (93.0% recall)
+  Most common errors: Tuna Fish Can: 9, Potted Meat Can: 7, Sugar Box: 5
+
+Power Drill (ID 15): 217/225 correct (96.4% recall)
+  Most common errors: Tomato Soup Can: 6, Master Chef Can: 2
+
+=======================================================
+Neural Network
+
+Master Chef Can (ID 1): 300/300 correct (100.0% recall)
+  No misclassifications in these predictions.
+
+Cracker Box (ID 2): 22/150 correct (14.7% recall)
+  Most common errors: Tomato Soup Can: 128
+
+Sugar Box (ID 3): 315/375 correct (84.0% recall)
+  Most common errors: Bleach Cleanser: 60
+
+Tomato Soup Can (ID 4): 288/375 correct (76.8% recall)
+  Most common errors: Bleach Cleanser: 61, Tuna Fish Can: 18, Cracker Box: 8
+
+Tuna Fish Can (ID 6): 115/225 correct (51.1% recall)
+  Most common errors: Master Chef Can: 93, Tomato Soup Can: 14, Bleach Cleanser: 3
+
+Potted Meat Can (ID 9): 0/150 correct (0.0% recall)
+  Most common errors: Sugar Box: 72, Bleach Cleanser: 44, Tomato Soup Can: 29
+
+Pitcher Base (ID 11): 225/225 correct (100.0% recall)
+  No misclassifications in these predictions.
+
+Bleach Cleanser (ID 12): 270/300 correct (90.0% recall)
+  Most common errors: Sugar Box: 28, Tuna Fish Can: 2
+
+Power Drill (ID 15): 225/225 correct (100.0% recall)
+  No misclassifications in these predictions.

@@ -1,0 +1,10 @@
+numpy==1.26.4
+opencv-python==5.0.0.93
+pandas==3.0.6
+matplotlib==3.11.2
+scikit-image==0.26.0
+scikit-learn==1.9.1
+scipy==1.13.1
+torch==2.2.2
+jupyter==1.1.1
+ipykernel==7.4.0

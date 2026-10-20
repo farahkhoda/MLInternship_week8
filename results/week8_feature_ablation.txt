@@ -1,0 +1,67 @@
+WEEK 8 — FEATURE REPRESENTATION ABLATION
+Evaluation: Leave-One-Scene-Out, scenes 000048–000058
+Final test scene 000059 excluded.
+
+=======================================================
+Color — original
+Feature dimensions: 4096
+Accuracy: 72.30%
+Macro F1: 0.6271
+Recall by class:
+  Master Chef Can: 66.7%
+  Cracker Box: 0.0%
+  Sugar Box: 82.7%
+  Tomato Soup Can: 72.3%
+  Tuna Fish Can: 79.6%
+  Potted Meat Can: 0.0%
+  Pitcher Base: 100.0%
+  Bleach Cleanser: 93.0%
+  Power Drill: 96.4%
+
+=======================================================
+Color — standardized
+Feature dimensions: 4096
+Accuracy: 75.14%
+Macro F1: 0.6907
+Recall by class:
+  Master Chef Can: 98.0%
+  Cracker Box: 50.0%
+  Sugar Box: 94.4%
+  Tomato Soup Can: 75.5%
+  Tuna Fish Can: 41.3%
+  Potted Meat Can: 14.7%
+  Pitcher Base: 80.0%
+  Bleach Cleanser: 89.7%
+  Power Drill: 78.7%
+
+=======================================================
+HOG — standardized
+Feature dimensions: 1764
+Accuracy: 20.17%
+Macro F1: 0.1820
+Recall by class:
+  Master Chef Can: 22.3%
+  Cracker Box: 35.3%
+  Sugar Box: 13.1%
+  Tomato Soup Can: 32.8%
+  Tuna Fish Can: 0.4%
+  Potted Meat Can: 2.0%
+  Pitcher Base: 27.1%
+  Bleach Cleanser: 37.3%
+  Power Drill: 0.0%
+
+=======================================================
+Combined — standardized
+Feature dimensions: 5860
+Accuracy: 73.29%
+Macro F1: 0.6803
+Recall by class:
+  Master Chef Can: 91.0%
+  Cracker Box: 54.7%
+  Sugar Box: 82.9%
+  Tomato Soup Can: 65.3%
+  Tuna Fish Can: 63.6%
+  Potted Meat Can: 2.0%
+  Pitcher Base: 92.4%
+  Bleach Cleanser: 92.3%
+  Power Drill: 72.0%

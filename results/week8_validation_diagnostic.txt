@@ -1,0 +1,9 @@
+WEEK 8 VALIDATION DIAGNOSTIC
+Validation scene: 000048
+
+Logistic Regression accuracy: 54.67%
+Neural Network accuracy: 50.00%
+
+Validation true classes: Master Chef Can (1), Tuna Fish Can (6).
+Confusion matrices use rows=true classes and columns=predicted classes.
+This is a single-scene diagnostic, not a final overall performance estimate.
